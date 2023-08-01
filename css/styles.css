@@ -257,46 +257,6 @@ img {
     width: calc((100% - 72px) / 4);
 }
 
-/* .advantages-item-strategy {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    margin-bottom: 8px;
-}
-
-.advantages-item-punctuality {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    margin-bottom: 8px;
-}
-
-.advantages-item-diligence {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    margin-bottom: 8px;
-}
-
-.advantages-item-technologies {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    margin-bottom: 8px;
-} */
-
 .advantages-subtitle {
     color: var(--navyblue, #2E2F42);
     font-size: 20px;
@@ -368,6 +328,9 @@ img {
     background-color: var(--white, #FFF);
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .container-team {
@@ -391,6 +354,40 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-links-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.social-links-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-links-link:hover {
+    background-color: #404bbf;
+}
+
+.social-links-link:focus {
+    background-color: #404bbf;
+}
+
+.social-link-svg {
+    fill: #f4f4fd;
 }
 
 /* ----------------FOOTER---------------- */
