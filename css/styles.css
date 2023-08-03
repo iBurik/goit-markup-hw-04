@@ -116,7 +116,7 @@ img {
 
 }
 
-.current {
+.current.header-menu-link {
     color: #404bbf;
 }
 
